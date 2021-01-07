@@ -1,0 +1,6 @@
+# How to join files in Linux:
+cat linux-3.14.2-zynq.tar.gz.a* > linux-3.14.2-zynq.tar.gz
+
+# How to join files in Windows:
+copy /b linux-3.14.2-zynq.tar.gz.aa + linux-3.14.2-zynq.tar.gz.ab linux-3.14.2-zynq.tar.gz
+
